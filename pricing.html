@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astrabyte - Pricing</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="pricing.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="images/astrabytelogo.png" alt="Astrabyte Logo" height="32">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+      </ul>
+      <a href="#contactFormSection" class="btn btn-primary nav-cta">Get Started</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="container">
+    <section class="hero pricing-hero">
+      <div class="hero-image">
+        <img src="images/africamap.png" alt="Africa Network Map" class="africa-network-svg">
+      </div>
+      <div class="hero-content">
+        <h1>Empower Your Messaging with Our SMS Power Pack</h1>
+        <p class="hero-subtitle">Fast. Reliable. Scalable.</p>
+      </div>
+    </section>
+
+    <section class="pricing-section">
+      <h2 class="section-title">Our Subscriptions</h2>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h3>Free Trial</h3>
+          <div class="price">Free</div>
+          <div class="sms-count">7 Days Trial</div>
+          <a href="https://wa.me/+254723812558" class="btn btn-primary pricing-btn">Get</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Starter</h3>
+          <div class="price">KES 2,000</div>
+          <div class="sms-count">5,000 SMS</div>
+          <a href="https://wa.me/+254723812558" class="btn btn-primary pricing-btn">Get</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Business</h3>
+          <div class="price">KES 4,000</div>
+          <div class="sms-count">12,500 SMS</div>
+          <a href="https://wa.me/+254723812558" class="btn btn-primary pricing-btn">Get</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Enterprise</h3>
+          <div class="price">KES 9,000</div>
+          <div class="sms-count">30,000 SMS</div>
+          <a href="https://wa.me/+254723812558" class="btn btn-primary pricing-btn">Get</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Reseller</h3>
+          <div class="price">KES 15,000</div>
+          <div class="sms-count">50,000 SMS</div>
+          <a href="https://wa.me/+254723812558" class="btn btn-primary pricing-btn">Get</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Reseller</h3>
+          <div class="price">KES 50,000</div>
+          <div class="sms-count">50,000 SMS</div>
+          <a href="https://wa.me/+254723812558" class="btn btn-primary pricing-btn">Get</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="contact-form-section" id="contactFormSection">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact-container">
+      <div class="contact-form-wrapper">
+        <form id="contactForm" class="contact-form" method="POST" action="https://formsubmit.co/el/info@legacyagency-online">
+          <input type="hidden" name="_subject" value="New Contact Form Submission">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://astrabyte.co.ke/thank-you.html">
+          <input type="hidden" name="_autoresponse" value="Thank you for contacting us. We have received your message and will get back to you soon.">
+          
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+        <div id="successMessage" class="success-message">
+          Thank you for your message! We'll get back to you soon.
+        </div>
+      </div>
+
+      <div class="contact-info-area">
+        <h3>Have a question for us?</h3>
+
+        <div class="contact-info-row">
+          <p>Email:</p>
+          <a href="mailto:info@legacyagency-online">info@legacyagency-online</a>
+
+          <p>Call:</p>
+          <a href="tel:+254723812558">+254 723 812 558</a>
+          <p class="operating-hours">Mon - Fri: 9am - 5pm EAT</p>
+        </div>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <a href="https://wa.me/+254723812558" class="floating-whatsapp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+  <footer>
+    <p>&copy; 2024 Astrabyte. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html> 
